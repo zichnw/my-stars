@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """把 stars_meta.jsonl 按预设类别归类，输出 stars_grouped.md。"""
 import json
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -304,6 +305,26 @@ M = {
 }
 
 
+def gh_anchor(text: str) -> str:
+    """复刻 GitHub 的 heading anchor 生成规则：
+    - 小写化
+    - 字母 / 数字 / Mark(变体选择符等) / '-' / '_' / '.' 保留
+    - 空格变 '-'
+    - 其他（标点、emoji 等）全部丢弃
+    """
+    out = []
+    for c in text.lower():
+        if c.isspace():
+            out.append("-")
+        elif c in "-_.":
+            out.append(c)
+        else:
+            cat = unicodedata.category(c)
+            if cat[0] in ("L", "N", "M"):  # Letter / Number / Mark
+                out.append(c)
+    return "".join(out)
+
+
 def main():
     repos = []
     with META.open() as f:
@@ -336,7 +357,7 @@ def main():
     for key, title in CATEGORIES:
         n = len(buckets.get(key, []))
         if n:
-            anchor = title.lower().replace(" ", "-").replace("/", "").replace("(", "").replace(")", "").replace("&", "").replace("—", "-")
+            anchor = gh_anchor(title)
             lines.append(f"- [{title}](#{anchor}) — {n} 项")
     lines.append("")
 

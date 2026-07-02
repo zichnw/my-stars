@@ -62,28 +62,28 @@ python3 categorize.py
 
 ## 目录
 
-- [🤖 VLA & 具身智能基础模型 (Vision-Language-Action / Foundation Models)](#🤖-vla--具身智能基础模型-vision-language-action--foundation-models) — 19 项
-- [🦾 模仿学习 & 机械臂操作 / Teleoperation](#🦾-模仿学习--机械臂操作--teleoperation) — 14 项
-- [🦾 SO-ARM / SO-101 等低成本机械臂平台](#🦾-so-arm--so-101-等低成本机械臂平台) — 4 项
-- [🧍 人形机器人 (Humanoid)](#🧍-人形机器人-humanoid) — 11 项
-- [🐕 四足机器人 (Quadruped)](#🐕-四足机器人-quadruped) — 11 项
-- [🚶 Locomotion / 腿式运动学习](#🚶-locomotion--腿式运动学习) — 3 项
-- [🎯 强化学习 (RL 算法 / Sim-to-Real / 课程)](#🎯-强化学习-rl-算法--sim-to-real--课程) — 8 项
-- [🧭 移动机器人导航](#🧭-移动机器人导航) — 9 项
-- [🛩️ 无人机 / UAV / Aerial Robotics](#🛩️-无人机--uav--aerial-robotics) — 12 项
-- [🗺️ SLAM (Visual / LiDAR / RGBD)](#🗺️-slam-visual--lidar--rgbd) — 19 项
-- [📡 VIO / GNSS / 多传感器融合 / 标定](#📡-vio--gnss--多传感器融合--标定) — 19 项
-- [📦 建图 / 3D 重建 / 体素 / 场图](#📦-建图--3d-重建--体素--场图) — 8 项
-- [🚗 自动驾驶](#🚗-自动驾驶) — 6 项
-- [👀 感知 / 计算机视觉 (检测/跟踪/姿态/光流)](#👀-感知--计算机视觉-检测跟踪姿态光流) — 22 项
-- [🎮 仿真平台 / Simulators](#🎮-仿真平台--simulators) — 8 项
-- [🌐 World Model & 序列模型 (SSM)](#🌐-world-model--序列模型-ssm) — 7 项
-- [🧰 机器人工具 / 库 / SDK](#🧰-机器人工具--库--sdk) — 13 项
-- [🤖 ROS / 驱动 / 集成包](#🤖-ros--驱动--集成包) — 4 项
-- [🧠 LLM / Agent / AI Coding 工具](#🧠-llm--agent--ai-coding-工具) — 10 项
-- [📊 时间序列 / 金融预测](#📊-时间序列--金融预测) — 3 项
-- [📚 学习资源 / 教程 / Awesome List](#📚-学习资源--教程--awesome-list) — 30 项
-- [❓ 其他 / 待分类](#❓-其他--待分类) — 2 项
+- [🤖 VLA & 具身智能基础模型 (Vision-Language-Action / Foundation Models)](#-vla--具身智能基础模型-vision-language-action--foundation-models) — 19 项
+- [🦾 模仿学习 & 机械臂操作 / Teleoperation](#-模仿学习--机械臂操作--teleoperation) — 14 项
+- [🦾 SO-ARM / SO-101 等低成本机械臂平台](#-so-arm--so-101-等低成本机械臂平台) — 4 项
+- [🧍 人形机器人 (Humanoid)](#-人形机器人-humanoid) — 11 项
+- [🐕 四足机器人 (Quadruped)](#-四足机器人-quadruped) — 11 项
+- [🚶 Locomotion / 腿式运动学习](#-locomotion--腿式运动学习) — 3 项
+- [🎯 强化学习 (RL 算法 / Sim-to-Real / 课程)](#-强化学习-rl-算法--sim-to-real--课程) — 8 项
+- [🧭 移动机器人导航](#-移动机器人导航) — 9 项
+- [🛩️ 无人机 / UAV / Aerial Robotics](#️-无人机--uav--aerial-robotics) — 12 项
+- [🗺️ SLAM (Visual / LiDAR / RGBD)](#️-slam-visual--lidar--rgbd) — 19 项
+- [📡 VIO / GNSS / 多传感器融合 / 标定](#-vio--gnss--多传感器融合--标定) — 19 项
+- [📦 建图 / 3D 重建 / 体素 / 场图](#-建图--3d-重建--体素--场图) — 8 项
+- [🚗 自动驾驶](#-自动驾驶) — 6 项
+- [👀 感知 / 计算机视觉 (检测/跟踪/姿态/光流)](#-感知--计算机视觉-检测跟踪姿态光流) — 22 项
+- [🎮 仿真平台 / Simulators](#-仿真平台--simulators) — 8 项
+- [🌐 World Model & 序列模型 (SSM)](#-world-model--序列模型-ssm) — 7 项
+- [🧰 机器人工具 / 库 / SDK](#-机器人工具--库--sdk) — 13 项
+- [🤖 ROS / 驱动 / 集成包](#-ros--驱动--集成包) — 4 项
+- [🧠 LLM / Agent / AI Coding 工具](#-llm--agent--ai-coding-工具) — 10 项
+- [📊 时间序列 / 金融预测](#-时间序列--金融预测) — 3 项
+- [📚 学习资源 / 教程 / Awesome List](#-学习资源--教程--awesome-list) — 30 项
+- [❓ 其他 / 待分类](#-其他--待分类) — 2 项
 
 ## 🤖 VLA & 具身智能基础模型 (Vision-Language-Action / Foundation Models)
 *(19 项)*
